@@ -1,0 +1,18 @@
+﻿  Пара9.cpp
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(12,66): warning C4267: инициализация: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(34,24): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(38,24): warning C4018: >=: несоответствие типов со знаком и без знака
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(44,9): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(66,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(81,22): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(101,34): error C2563: несоответствие в списке формальных параметров
+C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(101,13): error C2660: strcpy_s: функция не принимает 2 аргументов
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(32,30):
+   см. объявление "strcpy_s"
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(124,1):
+  может быть "errno_t strcpy_s(char (&)[_Size],const char *) throw()"
+  	C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(101,13):
+  	'errno_t strcpy_s(char (&)[_Size],const char *) throw()': не удалось вывести аргумент шаблон для 'char (&)[_Size]' из 'char *'
+  C:\Users\Home\Documents\C++\Пара9\Пара9.cpp(101,13):
+  при попытке сопоставить список аргументов "(char *, char *)"
+  
